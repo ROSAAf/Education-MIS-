@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<?php 
+    $time = Date("Y / m /d");
+?>
+<body>
+    <div class="topPart">
+        <header class="header">
+            <div class="logo1">
+                <img src="logo3.png" alt="Repulic of Afghanistan logo" width="200">
+            </div>
+            <div class="title">
+                <h1>جمهوری اسلامی افغانستان وزارت معارف</h1>
+                <h3>ریاست معارف شهر</h3>
+            </div>
+            <div class="logo2">
+                <img src="Ministry.png" alt="Ministry of Education Logo" width="200">
+            </div>
+        </header>
+        <nav>
+            <div class="leftside">
+                <input type="text" placeholder="لطفا اسم کاربر تان را وارد نماید ..." style="order:3 ;">
+                <input type="password" name="password" placeholder="لطفا پسود تان را وارد نماید ..." style="order: 2;">
+                <input type="submit" value="Login" style="order:1">
+            </div>
+            <div class="rightside">
+                <a href="" style="order:5">صفحه اصلی</a>
+                <a href="" style="order:4">درخواست ها</a>
+                <a href="" style="order:3">اخبار</a>
+                <a href="" style="order:2">نامعلوم</a>
+                <a href="" style="order:1">نامعلوم</a>
+            </div>
+        </nav>
+    </div>
+    <main class="container">
+        <section>
+            <h2>شهادتنامه های سال جاری تودیع میشود!</h2>
+            <h5><?php echo $time?></h5>
+            <div class="fakeimg" style="height:200px;">Image</div>
+            <p>Some text..</p>
+            <br>
+            <h2>وزارت معارف : تعداد معلیمین را در سطع کشور افزایش میدهیم!</h2>
+            <h5><?php echo $time?></h5>
+            <div class="fakeimg" style="height:200px;">Image</div>
+            <p>Some text..</p>
+            <p></p>
+        </section>
+        <aside>
+            <h2> درباره ما</h2>
+            <div class="fakeimg" style="height:200px;">
+                
+            </div>
+            <p>معلومات درباره تیم کاری ما</p>
+            <h3>نمونه های کاری ما</h3>
+            <div class="fakeimg" style="height:60px;">Image</div><br>
+            <div class="fakeimg" style="height:60px;">Image</div><br>
+            <div class="fakeimg" style="height:60px;">Image</div>
+        </aside>
+    </main>
+    <footer>
+        <h2>Footer</h2>
+    </footer>
+</body>
+</html>
