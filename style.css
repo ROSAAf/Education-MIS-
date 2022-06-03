@@ -103,7 +103,7 @@ footer {
     text-align: center;
 }
 @media screen and (max-width: 700px) {
-    .container, nav {   
+    .container,.topPart {   
       flex-direction: row;
       
     }
